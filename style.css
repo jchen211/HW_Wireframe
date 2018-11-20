@@ -1,0 +1,62 @@
+.container {
+    width: 900px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 40px;
+    background-color: #eee;
+    text-align: center;
+}
+
+nav {
+    padding: 40px;
+    text-align: center;
+    margin: 10px 0 10px 0;
+    background-color: green;
+}
+
+#one {
+    float: left;
+    background-color: red;
+    width: 55%;
+    text-align: center;
+    padding: 10px;  
+    margin-bottom: 15px;
+}
+
+aside {
+    float: right;
+    width: 40%;
+    background-color: blue;
+    padding: 0 0 269px;
+    text-align: center;  
+}
+
+article {
+    margin: 20px;
+    text-align: center;
+    background-color: #323232;
+    padding: 20px;
+}
+
+p {
+    padding: 10px;
+    background-color: #eee;
+    margin: 25px;
+}
+
+.foot {
+    padding: 40px;
+    background-color: #eee;
+    clear: both;
+    text-align: center;
+    
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
